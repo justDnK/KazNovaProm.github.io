@@ -1,0 +1,2 @@
+# KazNovaProm.github.io
+KazNovaProm

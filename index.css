@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column;
+}
+
+body .languages {
+    width: 100%;
+    height: 350px;
+
+}
+
+body .languages .main_text {
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+
+body .languages .main_text h1 {
+    display: inline-block;
+    color: white;
+}
+
+body .languages .main_text h1 {
+    text-align: center;
+}
+
+body .languages a {
+    text-decoration: none;
+}
+
+body .languages a div {
+    background-color: white;
+    width: 200px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid grey;
+}
+
+body .languages a div:hover {
+    background-color: rgb(100, 185, 242);
+}
+
+body .languages a div h3 {
+    color: grey;
+    text-align: center;
+    display: inline-block;
+}
+
+body .languages a div h3:hover {
+    color: white;
+}
+
+@media (max-width: 645px) {
+    body .languages .main_text {
+        width: 300px;
+        height: 30px;
+    }
+
+    body .languages .main_text h1 {
+        font-size: 15px;
+    }
+
+    body .languages a div {
+        width: 120px;
+        height: 25px;
+    }
+
+    body .languages a div h3 {
+        font-size: 15px;
+    }
+}
